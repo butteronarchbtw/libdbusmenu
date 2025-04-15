@@ -66,7 +66,7 @@ libdbusmenu_glib_la_LDFLAGS = \
 libdbusmenu_glib_la_CFLAGS = \
 	$(DBUSMENUGLIB_CFLAGS) \
 	$(COVERAGE_CFLAGS) \
-	-Wall -Werror -Wno-error=deprecated-declarations \
+	-Wall -Wno-error=deprecated-declarations \
 	-DG_LOG_DOMAIN="\"LIBDBUSMENU-GLIB\""
 
 libdbusmenu_glib_la_LIBADD = \
